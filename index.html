@@ -11,21 +11,32 @@
 
 <body>
 
-    
-    <h1>Crystal Game</h1>
-    <div class="game-buttons">
-        <button id="start">Start Game</button>
-        <button id="play-again">Play Again</button>
-    </div>
-    <br>
-    <div class="crystal-buttons">
-        <button id="crystalOne">Crystal 1</button>
-        <button id="crystalTwo">Crystal 2</button>
-        <button id="crystalThree">Crystal 3</button>
-        <button id="crystalFour">Crystal 4</button>
-    </div>
+    <header>
+        <h1>Crystal Game</h1>
+    </header>
+
+    <container id="game-area">
+
+        <div id="score-circles">
+            <div id="magic">Magic Number</div>
+            <div id="user">Crystal Count</div>
+        </div>
+
+        <div id="state">
+            <div id="wins">Wins</div>
+            <div id="losses">Losses</div>
+        </div>
 
 
+        <div class="crystal-buttons">
+            <button id="crystalOne">Crystal 1</button>
+            <button id="crystalTwo">Crystal 2</button>
+            <button id="crystalThree">Crystal 3</button>
+            <button id="crystalFour">Crystal 4</button>
+        </div>
+
+
+    </container>
 
     <script src="./assets/javascript/game.js"></script>
 
