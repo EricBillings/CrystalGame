@@ -25,7 +25,7 @@ function compare(x, y) {
         crystalNumThree = Math.floor(Math.random() * 12) + 1;
         crystalNumFour = Math.floor(Math.random() * 12) + 1;
         userCount = 0;
-        alert("Magic Number: " + randNum);
+        alert("New Magic Number: " + randNum);
         $("#user").text("Score " + userCount);
         $("#wins").text("Wins " + win);
         $("#losses").text("Losses " + loss);
@@ -45,7 +45,7 @@ function compare(x, y) {
         crystalNumThree = Math.floor(Math.random() * 12) + 1;
         crystalNumFour = Math.floor(Math.random() * 12) + 1;
         userCount = 0;
-        alert("Magic Number: " + randNum);
+        alert("New Magic Number: " + randNum);
         $("#user").text("Score " + userCount);
         $("#wins").text("Wins " + win);
         $("#losses").text("Losses " + loss);
