@@ -1,0 +1,43 @@
+
+.jumbotron {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: lightskyblue;
+    color: whitesmoke;
+    margin-bottom: 0px;
+
+
+}
+
+#scores {
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    background: yellow;
+
+}
+
+#wins,
+#losses,
+#user
+     {
+    padding-right: 150px;
+    padding-left: 150px;
+    background: grey;
+    margin-top: 0px;
+}
+
+#crystalOne,
+#crystalTwo,
+#crystalThree,
+#crystalFour
+
+ {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%:
+
+
+}
+
