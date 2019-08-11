@@ -6,6 +6,10 @@ let crystalNumTwo = Math.floor(Math.random() * 12) + 1;
 let crystalNumThree = Math.floor(Math.random() * 12) + 1;
 let crystalNumFour = Math.floor(Math.random() * 12) + 1;
 let userCount = 0;
+
+
+
+confirm("Are you ready to play? When you click ok, a magic number will appear.");
 alert("Magic Number: " + randNum);
 $("#user").text("Score " + userCount);
 $("#wins").text("Wins " + win);
