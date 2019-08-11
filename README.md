@@ -3,7 +3,7 @@
 
 The crystal game is a simpe demonstration random numbers, dynamic HTML generation using jQuery, and event listeners.
 
-Deployed project link: https://ericbillings.github.io/cyrstal-game/
+Deployed project link: hhttps://ericbillings.github.io/CrystalGame/
 
 Instructions for play:
 
